@@ -21,7 +21,7 @@
 
 #define KEYBOARD_HEIGHT 80
 #define PREDICTION_BAR_HEIGHT 40
-#define ADD_BUTTON_PADDING 10.0f
+#define ADD_BUTTON_PADDING 5.0f
 #define DEFAULT_WINDOW_WIDTH 240
 
 @interface SCLAlertView ()  <UITextFieldDelegate, UIGestureRecognizerDelegate>
@@ -335,7 +335,7 @@ SCLTimerDisplay *buttonTimer;
         // Buttons
         for (SCLButton *btn in _buttons)
         {
-            btn.frame = CGRectMake(12.0f, y, btn.frame.size.width, btn.frame.size.height);
+            btn.frame = CGRectMake(6.0f, y, btn.frame.size.width, btn.frame.size.height);
             btn.layer.cornerRadius = 3.0f;
             y += btn.frame.size.height + 10.0f;
         }
