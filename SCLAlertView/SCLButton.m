@@ -11,7 +11,7 @@
 
 #define MARGIN_BUTTON 6.0f
 #define DEFAULT_WINDOW_WIDTH 240
-#define MIN_HEIGHT 35.0f
+#define MIN_HEIGHT 44.0f
 
 @implementation SCLButton
 
